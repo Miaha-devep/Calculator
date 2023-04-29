@@ -1,0 +1,7 @@
+/venv
+/templates
+/dist
+/build
+/.idea
+main.spec
+interface.py

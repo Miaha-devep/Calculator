@@ -1,0 +1,182 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMessageBox
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.setEnabled(True)
+        MainWindow.resize(300, 400)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, 0, 300, 111))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setStyleSheet("background-color: rgb(246, 237, 255);\n"
+                                 "color: rgb(105, 163, 255);")
+        self.label.setObjectName("label")
+        self.pushButton_22 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_22.setGeometry(QtCore.QRect(0, 70, 100, 50))
+        self.pushButton_22.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_23 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_23.setGeometry(QtCore.QRect(200, 70, 100, 50))
+        self.pushButton_23.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_7.setGeometry(QtCore.QRect(100, 170, 100, 50))
+        self.pushButton_7.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_7.setObjectName("pushButton_7")
+        self.pushButton_8 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_8.setGeometry(QtCore.QRect(100, 119, 100, 51))
+        self.pushButton_8.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.pushButton_9 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_9.setGeometry(QtCore.QRect(0, 170, 100, 50))
+        self.pushButton_9.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_9.setObjectName("pushButton_9")
+        self.pushButton_10 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_10.setGeometry(QtCore.QRect(200, 170, 100, 50))
+        self.pushButton_10.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_10.setObjectName("pushButton_10")
+        self.pushButton_11 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_11.setGeometry(QtCore.QRect(0, 120, 100, 50))
+        self.pushButton_11.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_11.setObjectName("pushButton_11")
+        self.pushButton_12 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_12.setGeometry(QtCore.QRect(200, 120, 100, 50))
+        self.pushButton_12.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_12.setObjectName("pushButton_12")
+        self.pushButton_13 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_13.setGeometry(QtCore.QRect(200, 220, 100, 50))
+        self.pushButton_13.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_13.setObjectName("pushButton_13")
+        self.pushButton_14 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_14.setGeometry(QtCore.QRect(0, 220, 100, 50))
+        self.pushButton_14.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_14.setObjectName("pushButton_14")
+        self.pushButton_15 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_15.setGeometry(QtCore.QRect(200, 270, 100, 50))
+        self.pushButton_15.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_15.setObjectName("pushButton_15")
+        self.pushButton_16 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_16.setGeometry(QtCore.QRect(100, 220, 100, 50))
+        self.pushButton_16.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_16.setObjectName("pushButton_16")
+        self.pushButton_17 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_17.setGeometry(QtCore.QRect(100, 270, 100, 50))
+        self.pushButton_17.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_17.setObjectName("pushButton_17")
+        self.pushButton_18 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_18.setGeometry(QtCore.QRect(0, 270, 100, 50))
+        self.pushButton_18.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_18.setObjectName("pushButton_18")
+        self.pushButton_19 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_19.setGeometry(QtCore.QRect(100, 320, 100, 50))
+        self.pushButton_19.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_19.setObjectName("pushButton_19")
+        self.pushButton_20 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_20.setGeometry(QtCore.QRect(0, 320, 100, 50))
+        self.pushButton_20.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_20.setObjectName("pushButton_20")
+        self.pushButton_21 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_21.setGeometry(QtCore.QRect(200, 320, 100, 50))
+        self.pushButton_21.setStyleSheet("background-color: rgb(218, 255, 130);")
+        self.pushButton_21.setObjectName("pushButton_21")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.add_functions()
+        self.is_equal = False
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Calculator"))
+        self.label.setText(_translate("MainWindow", "0"))
+        self.pushButton_7.setText(_translate("MainWindow", "4"))
+        self.pushButton_8.setText(_translate("MainWindow", "1"))
+        self.pushButton_9.setText(_translate("MainWindow", "3"))
+        self.pushButton_10.setText(_translate("MainWindow", "5"))
+        self.pushButton_11.setText(_translate("MainWindow", "0"))
+        self.pushButton_12.setText(_translate("MainWindow", "2"))
+        self.pushButton_13.setText(_translate("MainWindow", "8"))
+        self.pushButton_14.setText(_translate("MainWindow", "6"))
+        self.pushButton_15.setText(_translate("MainWindow", "-"))
+        self.pushButton_16.setText(_translate("MainWindow", "7"))
+        self.pushButton_17.setText(_translate("MainWindow", "+"))
+        self.pushButton_18.setText(_translate("MainWindow", "9"))
+        self.pushButton_19.setText(_translate("MainWindow", "*"))
+        self.pushButton_20.setText(_translate("MainWindow", "/"))
+        self.pushButton_21.setText(_translate("MainWindow", "="))
+        self.pushButton_22.setText(_translate("MainWindow", '('))
+        self.pushButton_23.setText(_translate("MainWindow", ')'))
+
+    def add_functions(self):
+        self.pushButton_7.clicked.connect(lambda: self.write_number(self.pushButton_7.text()))
+        self.pushButton_8.clicked.connect(lambda: self.write_number(self.pushButton_8.text()))
+        self.pushButton_9.clicked.connect(lambda: self.write_number(self.pushButton_9.text()))
+        self.pushButton_10.clicked.connect(lambda: self.write_number(self.pushButton_10.text()))
+        self.pushButton_11.clicked.connect(lambda: self.write_number(self.pushButton_11.text()))
+        self.pushButton_12.clicked.connect(lambda: self.write_number(self.pushButton_12.text()))
+        self.pushButton_13.clicked.connect(lambda: self.write_number(self.pushButton_13.text()))
+        self.pushButton_14.clicked.connect(lambda: self.write_number(self.pushButton_14.text()))
+        self.pushButton_15.clicked.connect(lambda: self.write_number(self.pushButton_15.text()))
+        self.pushButton_16.clicked.connect(lambda: self.write_number(self.pushButton_16.text()))
+        self.pushButton_17.clicked.connect(lambda: self.write_number(self.pushButton_17.text()))
+        self.pushButton_18.clicked.connect(lambda: self.write_number(self.pushButton_18.text()))
+        self.pushButton_19.clicked.connect(lambda: self.write_number(self.pushButton_19.text()))
+        self.pushButton_20.clicked.connect(lambda: self.write_number(self.pushButton_20.text()))
+        self.pushButton_21.clicked.connect(self.get_result)
+        self.pushButton_22.clicked.connect(lambda: self.write_number(self.pushButton_22.text()))
+        self.pushButton_23.clicked.connect(lambda: self.write_number(self.pushButton_23.text()))
+
+    def write_number(self, number):
+        if self.label.text() == '0' or self.is_equal:
+            self.is_equal = False
+            self.label.setText(number)
+        else:
+            self.label.setText(self.label.text() + number)
+
+    def get_result(self):
+        if not self.is_equal:
+            res = eval(self.label.text())
+            self.label.setText("Result:" + str(res))
+            self.is_equal = True
+        else:
+            error = QMessageBox()
+            error.setWindowTitle("Error")
+            error.setText("This action in not available now")
+            error.setIcon(QMessageBox.Warning)
+            error.setStandardButtons(QMessageBox.Reset | QMessageBox.Cancel | QMessageBox.Ok)
+            error.setDefaultButton(QMessageBox.Ok)
+            error.setInformativeText("You can not double-click on '='")
+            error.setDetailedText("Details")
+            error.buttonClicked.connect(self.popup_action)
+            error.exec_()
+
+    def popup_action(self, btn):
+        text = btn.text()
+        if text == "OK":
+            print("ok")
+        elif text == "Reset":
+            self.label.setText("")
+            self.is_equal = False
+        elif text == "Cancel":
+            print("cancel")
+
+
+if __name__ == "__main__":
+    import sys
+
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
